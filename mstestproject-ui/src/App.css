@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.grid {
+  background-color: white;
+  border: 1px solid #ddd;
+  width: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-header {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.grid-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grid-table th,
+.grid-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.grid-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grid-table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.grid-table tr.selected {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.drag-handle {
+  cursor: move;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message-loading {
+  background-color: #eaf4fe;
+  color: #007bff;
+  border: 1px solid #b8daff;
+}
+
+.message-error {
+  background-color: #fcebea;
+  color: #d93025;
+  border: 1px solid #f5c6cb;
+}
+
+.message-success {
+  background-color: #dcf5d7;
+  color: #1eac31;
+  border: 1px solid #dcf5d7;
+}
+
+.message-container .icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.category-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.category-actions button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.category-actions button:hover {
+  background-color: #f0f0f0;
+}
+
+.active {
+  background-color: darkblue;
+}
