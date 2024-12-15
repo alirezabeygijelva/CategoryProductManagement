@@ -73,7 +73,7 @@ cd CategoryProductManagement
 
 1. Navigate to the front-end project directory:
    ```bash
-   cd frontend
+   cd mstestproject-ui
    ```
 
 2. Install dependencies:
